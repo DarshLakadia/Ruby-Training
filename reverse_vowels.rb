@@ -2,7 +2,6 @@
 Reverse only vowels in the given string.
 Input: string = "communication"
 Expected output: "comminacituon"
-
 =end
 class Reverse
   def isVowel(character)
