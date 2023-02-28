@@ -6,7 +6,7 @@ Expected output: "comminacituon"
 =end
 class Reverse
   def isVowel(character)
-    character == "a" ||character ==  "e" ||character ==  "i" ||character ==  "o" ||character ==  "u" 
+    character == "a" ||character ==  "e" ||character ==  "i" ||character ==  "o" ||character ==  "u" || character == "A" || character == "E" || character == "I" || character == "O" || character =="U"
   end
   def reverse_vowel
     string = "communication"
