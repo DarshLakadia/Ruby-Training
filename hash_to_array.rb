@@ -7,4 +7,4 @@ Output - [["age", 24], ["name", "Jeremy"], ["role", "Software Engineer"]]
 input = {name: 'Jeremy', age: 24, role: 'Software Engineer'}
 hash = {}
 input.each{|k,v| hash[k.to_s] = v}
-p hash.to_a
+p hash.sort.to_a
